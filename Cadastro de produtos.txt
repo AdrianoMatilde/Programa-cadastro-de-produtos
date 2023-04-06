@@ -1,0 +1,5 @@
+# Programa de cadastro de produtos incluindo funcionalidades gerando um arquivo em CSV para persistência de dados.
+
+Neste programa, utilizamos duas classes: Produto para representar os produtos e GerenciadorProdutos para gerenciar a lista de produtos, incluindo as funcionalidades de adicionar, buscar e listar produtos, além de salvar e carregar os produtos em um arquivo CSV para persistência de dados.
+
+O programa também possui uma função exibir_menu() para exibir as opções disponíveis para o usuário, e a função principal main() que executa o loop do menu e as operações de acordo com a opção selecionada pelo usuário.
