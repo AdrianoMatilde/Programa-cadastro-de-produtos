@@ -70,6 +70,7 @@ def exibir_menu():
     print("5 - Salvar Produtos")
     print("6 - Sair do Programa")
 
+
 # Função principal do programa
 def main():
     gerenciador = GerenciadorProdutos()
@@ -107,16 +108,6 @@ def main():
 
         elif opcao == "6":
             print("Encerrando o programa...")
-
-        elif opcao == "7":
-            codigo = input("Digite o código do produto a ser atualizado: ")
-            produto = gerenciador.buscar_produto(codigo)
-            if produto:
-                quantidade = int(input("Digite a nova quantidade do produto: "))
-                produto.quantidade = quantidade
-                print("Quantidade do produto atualizada com sucesso!")
-            else:
-                print(f"Produto de código {codigo} não encontrado.")
 
 if __name__ == "__main__":
     main()
